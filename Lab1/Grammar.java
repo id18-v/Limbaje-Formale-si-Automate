@@ -30,7 +30,7 @@ public class Grammar
                     System.out.print(symbol + nextState +  "-> ");
                   } else {
                     word.append(chosenRule);
-                    System.out.print(chosenRule +  "Stop ");
+                    System.out.print(chosenRule +  " ");
                     currentState = "";
                   }
 
